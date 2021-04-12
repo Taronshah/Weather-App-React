@@ -1,0 +1,40 @@
+.current-wrapper {
+    display: flex;
+    width: 100%;
+    color: #fff;
+    justify-content: center;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.current-main {
+    width: 50%;
+    font-weight: 600;
+}
+
+.current-additional {
+    width: 50%;
+    margin-top: 15px;
+}
+
+.current-day {
+    font-size: 32px;
+}
+
+.current-date {
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.current-temp {
+    font-size: 28px;
+}
+
+.current-humidity {
+    font-size: 20px;
+}
+
+.current-descr {
+    font-size: 20px;
+    text-transform: capitalize;
+}

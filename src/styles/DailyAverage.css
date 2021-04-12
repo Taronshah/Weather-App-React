@@ -1,0 +1,33 @@
+.daily-wrapper {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 15px;
+    border-bottom: 1px solid gray;
+    color: #0d1626;
+    font-weight: 500;
+}
+
+.daily-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.daily-additional {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.daily-descr {
+    text-transform: capitalize;
+}
+
+.daily-humidity {
+    margin: 0 8px 8px 0;
+}
+
+
